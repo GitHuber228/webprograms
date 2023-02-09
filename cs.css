@@ -1,0 +1,7 @@
+.yes{
+	display:flex;
+	flex-direction: row;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
