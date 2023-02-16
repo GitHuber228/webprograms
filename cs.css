@@ -5,3 +5,25 @@
 li {
     list-style-type: none; /* Убираем маркеры */
    }
+body{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+#Center{
+	background: red;
+}
+.sth{
+	display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    overflow-y:scroll;
+}
+.yes{
+    	flex:0 0 auto;
+    }
